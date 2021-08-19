@@ -14,6 +14,8 @@
 		683DAAB426CED44400B82A84 /* sailBOat_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 683DAAB226CED44400B82A84 /* sailBOat_app.xcdatamodeld */; };
 		683DAAB626CED44700B82A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683DAAB526CED44700B82A84 /* Assets.xcassets */; };
 		683DAAB926CED44700B82A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683DAAB726CED44700B82A84 /* LaunchScreen.storyboard */; };
+		683DAAC126CED7A100B82A84 /* ProgramsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DAAC026CED7A100B82A84 /* ProgramsViewController.swift */; };
+		683DAAC326CEDEFE00B82A84 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683DAAC226CEDEFE00B82A84 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		683DAAB526CED44700B82A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		683DAAB826CED44700B82A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		683DAABA26CED44700B82A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683DAAC026CED7A100B82A84 /* ProgramsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsViewController.swift; sourceTree = "<group>"; };
+		683DAAC226CEDEFE00B82A84 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				683DAAA926CED44400B82A84 /* AppDelegate.swift */,
 				683DAAAB26CED44400B82A84 /* SceneDelegate.swift */,
 				683DAAAD26CED44400B82A84 /* ViewController.swift */,
+				683DAAC026CED7A100B82A84 /* ProgramsViewController.swift */,
+				683DAAC226CEDEFE00B82A84 /* CalendarViewController.swift */,
 				683DAAAF26CED44400B82A84 /* Main.storyboard */,
 				683DAAB526CED44700B82A84 /* Assets.xcassets */,
 				683DAAB726CED44700B82A84 /* LaunchScreen.storyboard */,
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683DAAC326CEDEFE00B82A84 /* CalendarViewController.swift in Sources */,
 				683DAAB426CED44400B82A84 /* sailBOat_app.xcdatamodeld in Sources */,
 				683DAAAE26CED44400B82A84 /* ViewController.swift in Sources */,
+				683DAAC126CED7A100B82A84 /* ProgramsViewController.swift in Sources */,
 				683DAAAA26CED44400B82A84 /* AppDelegate.swift in Sources */,
 				683DAAAC26CED44400B82A84 /* SceneDelegate.swift in Sources */,
 			);
